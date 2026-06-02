@@ -25,7 +25,7 @@ location="index.html";
 
 /* ---------- JOB DATABASE ---------- */
 
-let jobs=JSON.parse(localStorage.getItem("jobs"))||[
+let jobs = JSON.parse(localStorage.getItem("jobs")) || [
 {
 title:"Frontend Developer",
 company:"TechSoft",
@@ -33,26 +33,120 @@ logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
 location:"Chennai",
 salary:"4 LPA",
 type:"Full Time"
-}
+},
 {
 title:"Backend Developer",
 company:"AsmiSoft",
-logo:"A",
-location:"banglour",
-salary:" LPA",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Bangalore",
+salary:"6 LPA",
 type:"Full Time"
-}
+},
 {
-title:"fullstack Developer",
-company:"Mtech soft",
-logo:"M",
-location:"selam",
+title:"Full Stack Developer",
+company:"MTech Soft",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Salem",
 salary:"10 LPA",
 type:"Full Time"
+},
+{
+title:"Java Developer",
+company:"Infosys",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Hyderabad",
+salary:"7 LPA",
+type:"Full Time"
+},
+{
+title:"Python Developer",
+company:"TCS",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Chennai",
+salary:"8 LPA",
+type:"Full Time"
+},
+{
+title:"UI/UX Designer",
+company:"Wipro",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Coimbatore",
+salary:"5 LPA",
+type:"Full Time"
+},
+{
+title:"Data Analyst",
+company:"Accenture",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Pune",
+salary:"7 LPA",
+type:"Full Time"
+},
+{
+title:"Cloud Engineer",
+company:"IBM",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Mumbai",
+salary:"12 LPA",
+type:"Full Time"
+},
+{
+title:"DevOps Engineer",
+company:"Cognizant",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Bangalore",
+salary:"9 LPA",
+type:"Full Time"
+},
+{
+title:"AI/ML Engineer",
+company:"Google",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Hyderabad",
+salary:"18 LPA",
+type:"Full Time"
+},
+{
+title:"Cyber Security Analyst",
+company:"HCL",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Noida",
+salary:"10 LPA",
+type:"Full Time"
+},
+{
+title:"Mobile App Developer",
+company:"Zoho",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Chennai",
+salary:"8 LPA",
+type:"Full Time"
+},
+{
+title:"Software Testing Engineer",
+company:"Capgemini",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Coimbatore",
+salary:"6 LPA",
+type:"Full Time"
+},
+{
+title:"React Developer",
+company:"Freshworks",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Chennai",
+salary:"9 LPA",
+type:"Remote"
+},
+{
+title:"Node.js Developer",
+company:"Amazon",
+logo:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+location:"Bangalore",
+salary:"15 LPA",
+type:"Hybrid"
 }
-];
-
-/* ---------- DISPLAY JOBS ---------- */
+];/* ---------- DISPLAY JOBS ---------- */
 
 const jobList=document.getElementById("jobList");
 
