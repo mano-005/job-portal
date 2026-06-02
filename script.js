@@ -34,6 +34,22 @@ location:"Chennai",
 salary:"4 LPA",
 type:"Full Time"
 }
+{
+title:"Backend Developer",
+company:"AsmiSoft",
+logo:"A",
+location:"banglour",
+salary:" LPA",
+type:"Full Time"
+}
+{
+title:"fullstack Developer",
+company:"Mtech soft",
+logo:"M",
+location:"selam",
+salary:"10 LPA",
+type:"Full Time"
+}
 ];
 
 /* ---------- DISPLAY JOBS ---------- */
